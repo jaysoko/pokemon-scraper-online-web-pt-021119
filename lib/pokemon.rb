@@ -26,6 +26,7 @@ class Pokemon
    #db.execute('update pokemon set hp = ? where id = ?;', hp, self.id)
    #db.execute("UPDATE pokemon SET hp = ? WHERE id = ?",hp,self.id)
     db.execute('update pokemon set hp = ? where id = ?;', hp, self.id)
+  binding.pry
   end
 
 end
